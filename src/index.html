@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <h1>Car CRUD Application</h1>
+    <div id="car-list"></div>
+
+    <h2>Add a New Car</h2>
+    <form id="add-car-form">
+        <input type="text" id="car-name" placeholder="Car Name" required>
+        <input type="text" id="car-model" placeholder="Car Model" required>
+        <button type="submit">Add Car</button>
+    </form>
+
+    <h2>Update a Car</h2>
+    <form id="update-car-form" style="display: none;">
+        <input type="hidden" id="update-car-id">
+        <input type="text" id="update-car-name" placeholder="Car Name" required>
+        <input type="text" id="update-car-model" placeholder="Car Model" required>
+        <button type="submit">Update Car</button>
+    </form>
+
+    <script src="./js/app.js"></script>
+</body>
+</html>

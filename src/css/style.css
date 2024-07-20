@@ -1,0 +1,32 @@
+body {
+    height: 96vh;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(130deg, rgba(56, 0, 9, 0.779), lightblue);
+    text-align: center;
+}
+
+h1, h2 {
+    color: #000000;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+input, button {
+    padding: 10px;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    transition: ease 0.2s;
+}
+
+button:active {
+    background-color: lightblue;
+    box-shadow: inset 1px 1 xpx 10px 5px #000;
+}
